@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <title>CI/CD Docker Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 40px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 24px;
+      max-width: 500px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>CI/CD Docker Demo</h1>
+    <p>Project demo untuk tugas Manajemen & Server.</p>
+    <p><b>Nama:</b> Adelia Wirasanti & Candradevi</p>
+    <p><b>Status:</b> Docker sudah berjalan dengan baik.</p>
+    <p><b>Versi:</b> <span id="version">v1</span></p>
+    <p><b>Waktu:</b> <span id="time"></span></p>
+  </div>
+
+  <script>
+    document.getElementById("time").innerText = new Date().toString();
+  </script>
+</body>
+</html>
